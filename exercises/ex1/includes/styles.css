@@ -1,0 +1,174 @@
+* {
+	padding:0;
+    margin:0;
+}
+
+body {
+	width:1280px;
+	height:1490px;
+	margin: 0 auto;
+}
+
+nav, header, footer, main, aside, section, article{
+    display:block;
+    margin: 0;
+}
+
+header{
+    height:62px;
+    background-color:#1B1E26;
+}
+
+#logo{
+    width: 295px;
+    height: 50px; 
+    text-decoration:none;
+    display:block;
+    padding:7px 60px;
+    margin-left:64px;
+    background: url(../images/logo.png) no-repeat left center;
+}
+
+#logo p{
+    font: 40px Georgia;
+    text-decoration:;
+    color:white;
+}
+
+#logo p span{
+    font: 30px Verdana;
+    text-decoration:none;
+}
+
+nav{
+    height:38px;
+}
+
+nav a{
+   	font:normal 30px Arial;
+    text-decoration:none;
+    display: inline-block;
+    color:#8E959C;
+    margin-left:69px;
+}
+
+nav a:hover{
+	color:#c5c8ca;
+}
+
+main{
+    height:1298px;
+}
+
+main article{
+	height:1010px;
+	width:1280px;
+}
+
+main article p{
+	font:normal 34px Arial;
+	margin:27px 0px 0 70px;
+	color:#8e959c;
+}
+
+main article section{
+	height:278px;
+	width:350px;
+	border:2px solid #e7e7e7;
+	border-style: groove;
+	margin-left:70px;
+}
+
+main article section img{
+	height:179px;
+	margin:15px;
+}
+
+main article section aside{
+	height:50px;
+	width:318px;
+	margin:0px auto;
+}
+
+main article section aside img{
+	height:50px;
+	width:50px;
+	float:left;
+	margin:0;
+}
+
+main article section aside p{
+	font:normal 16px Arial;
+	color: #454e5c;
+	margin:3px 0 0 10px;
+	float:left;
+}
+main article section aside p span{
+	font:normal 12px Arial;
+	color: #8e959c;
+	float:left;
+	margin:0;
+}
+
+main article aside{
+	height:151px;
+	width:1209px;
+	border-top:2px solid #e7e7e7;
+	margin:70px 0 0 70px;
+	bottom:0px;
+}
+
+main article aside img{
+	height:80px;
+	float:left;
+	margin:35px 0 0 6px;
+}
+
+main article aside p{
+	font:bold 16px Arial;
+	margin: 5px 0 0 120px;
+}
+
+main article aside a p{
+	font: 16px Arial;
+	color:#abb1bb;
+	margin: 35px 0 0 120px;
+}
+
+img.clear {
+	clear: both;
+}
+
+#skills{
+	height:288px;
+	background-color:#24272e;
+}
+
+#skills a p{
+    color:#FFFFFF;
+    text-decoration:none;
+    margin-left:70px;
+    padding:39px 0 10px 0;
+}
+
+#skills p{
+	font:normal 28px Georgia;
+    color:#8e959c;
+    margin:0 0 0 70px;
+    -webkit-margin-before: -5px;
+}
+
+footer{
+    height:92px;
+    background-color:#FFFFFF;
+}
+
+footer a{
+	display: inline-block;
+	font:normal 23px Georgia;
+    text-decoration:none;
+    display: inline-block;
+    color:#333333;
+    margin:23px 0 0 68px;
+}
+

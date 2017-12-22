@@ -1,0 +1,64 @@
+* {
+    margin:0 auto;
+    text-align: center;
+    color:#FFFFFF;
+    margin:2px;
+}
+
+body{
+background: #000000;
+}
+
+@font-face {
+    font-family: godFather;
+    src: url('../includes/TheGodfather-v2.ttf');
+}
+
+input,select,textarea{
+    border: 2px solid #dd2130;
+    background:#807464;
+    transition:ease-in-out 0.5s;
+    margin:5px;
+}
+
+input:focus,select:focus,textarea:focus{
+    border: 2px solid white;
+    background:#c2c3c4;
+    transition:ease-in-out 0.5s;
+    margin:5px;
+}
+
+#godFatherpic {
+	position:absolute;
+	transform: scale(3);
+    top: 30%;
+    left: 30%;
+    z-index: -1;
+}
+
+.submit{
+    width:100px;
+    height:140px;
+    border:none;
+    margin:20px;
+    background-color:transparent;
+    background-image:url('../images/submit.png');
+    background-size:cover;
+    transition:ease-in-out 0.5s; 
+}
+
+.submit:hover {
+    background-image:url('../images/Submit_hover.png');
+    transition:ease-in-out 0.5s;
+}
+
+h1, h2 ,h5 {
+   color:#FFFFFF;
+   -webkit-text-stroke-width: 0.01px;
+   -webkit-text-stroke-color: #000000;
+}
+
+h1 {
+    font-family:"godFather";
+    font-size:100px;
+}

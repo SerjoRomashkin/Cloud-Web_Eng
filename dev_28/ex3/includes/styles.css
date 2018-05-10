@@ -1,0 +1,291 @@
+* {
+	padding:0;
+    margin:0;
+}
+
+.clear{
+	clear: both;
+}
+
+html,body {height:100%;}
+
+header, main, aside, section, article, footer, body{
+    display:block;
+    margin: 0 auto;
+}
+
+/* Layout 1 */
+#Wrapper1 {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+
+#Wrapper1 header{
+	height:183px;
+}
+
+#logo {
+	display: inline-block;
+	padding-top: 11px;
+	padding-left: 104px;
+}
+
+#logo img{
+	height:70px;
+}
+
+#Wrapper1 header nav{
+	display:inline-block;
+    font:normal 18px Arial;
+    padding-left:274px;
+    padding-top: 41px;
+}
+
+#Wrapper1 header nav ul{
+	float: right;
+    list-style: none;
+}
+
+#Wrapper1 header nav ul li{
+	float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 54px;
+}
+
+#Wrapper1 header nav ul li a{
+	width:242px;
+	height:57px;
+    text-decoration:none;
+    display:inline-block;
+    color:#FFFFFF;
+    background-color:#b94a48;
+    text-align:center;
+    right: 0;
+}
+
+#Wrapper1 nav ul li a span{ 
+	width:242px;
+	height:57px;
+	display:block;
+    background-color:#003748;
+    right: 0;
+}
+
+#Wrapper1 main{
+    height:696px;
+    position:relative;
+}
+
+#Wrapper1 main div{
+	display:block;
+	position:absolute;
+}
+
+.box1{
+	width:850px;
+	height:268px;
+	top:0px;
+	right:0px;
+	background-color:red;
+	opacity:0.6;
+}
+
+.box2{
+	width:126px;
+	height:94px;
+	top:89px;
+	right:380px;
+	background-color:#000000;
+	opacity:0.6;
+}
+.box3{
+	width:122px;
+	height:696px;
+	top:0px;
+	left:0;
+	background-color:pink;
+	opacity:0.6;
+}
+
+.box4{
+	width:691px;
+	height:175px;
+	top:492px;
+	right:90px;
+	background-color:#000000;
+	opacity:0.6;
+}
+
+#Wrapper1 footer{
+    height:120px;
+    background-color:#d6d6d6;
+    bottom:0;
+}
+
+/* Layout 2 */
+
+
+#Wrapper2 {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+#Wrapper2 header{
+    height:193px;
+    background-color:#FFFFFF;
+}
+
+#logo2 {
+	display: inline-block;
+	padding-top: 38px;
+	padding-left:465px;
+}
+
+#logo2 img{
+	height:70px;
+	left:50%;
+}
+
+#Wrapper2 nav{
+	width:243px;
+    height:100%;
+    background-color:#000000;
+    opacity:0.8;
+    float:left;
+    position:relative;
+    padding:0;
+}
+
+#Wrapper2 nav a{
+	width:243px;
+	height:58px;
+	margin-top:0;
+    text-decoration:none;
+    display:block;
+    font:normal 18px Arial;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#Wrapper2 nav a span{ 
+	width:243px;
+	height:58px;
+    background-color:#b94a48;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#Wrapper2 main{
+	width:756px;
+    height:100%;
+    position:relative;
+    float: left;
+    background-color:#ee5f5b;
+}
+
+#Wrapper2 main section{
+	background-color:#000000;
+	display:block;
+	position:absolute;
+	opacity:0.6;
+}
+
+.box21{
+	width:212px;
+	height:366px;
+	top:0px;
+	left:29px;
+}
+
+.box22{
+	width:212px;
+	height:500px;
+	top:385px;
+	left:29px;
+}
+.box23{
+	width:212px;
+	height:560px;
+	top:0px;
+	left:272px;
+}
+.box24{
+	width:212px;
+	height:306px;
+	top:579px;
+	left:272px;
+}
+
+.box25{
+	width:189px;
+	height:223px;
+	top:0px;
+	right:31px;
+}
+
+#Wrapper2 footer{
+	width: 100%;
+    height:50px;
+	left: 0;
+    bottom: 0;
+    background-color:#d6d6d6;
+    position: fixed;
+    
+}
+
+/* Layout 3 */
+
+#Wrapper3 {
+	margin:0 auto;
+}
+
+#Wrapper3 header{
+    height:191px;
+    background-color:#d6d6d6;
+}
+
+#Wrapper3 nav{
+    height:62px;
+    background-color:#337ab7;
+    padding-left:32px;
+    padding-top:0;
+    text-align:center;
+}
+
+#Wrapper3 nav a{
+	width:233px;
+	height:62px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:0px;
+    font:normal 18px Arial;
+    position:static;
+    color:#FFFFFF;
+}
+
+#Wrapper3 nav a span{ 
+	width:233px;
+	height:62px;
+    background-color:#003748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Wrapper3 main{
+    position:relative;
+    float: left;
+}
+
+#Wrapper3 footer{
+    height:50px;
+    background-color:#d6d6d6;
+    position:fixed bottom;
+}

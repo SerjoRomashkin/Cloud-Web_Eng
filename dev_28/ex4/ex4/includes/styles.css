@@ -1,0 +1,56 @@
+* {
+    margin:0 auto;
+    padding:3px;
+    text-align: center;
+    color:#59FFFC;
+}
+
+
+
+body{
+background: -webkit-linear-gradient(top,  #2c3d48 1%,#394a55 17%,#394a55 17%,#2e3e47 54%,#5d717e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2c3d48 1%,#394a55 17%,#394a55 17%,#2e3e47 54%,#5d717e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+input,select,textarea{
+    border: 2px solid #59fffc;
+    background:#5D717E;
+    transition:ease-in-out 0.5s;
+}
+
+input:focus,select:focus,textarea:focus{
+    border: 2px solid white;
+    background:#c2c3c4;
+    transition:ease-in-out 0.5s;
+}
+
+.submit{
+    width:100px;
+    height:100px;
+    border:none;
+    margin:20px;
+    background-color:transparent;
+    background-image:url('../images/lockC.png');
+    transition:ease-in-out 0.5s; 
+}
+
+.submit:hover {
+    background-image:url('../images/lockO.png');
+    transition:ease-in-out 0.5s;
+}
+
+h1, h2 ,h5 {
+   color:#c2c3c4;
+   -webkit-text-stroke-width: 0.4px;
+   -webkit-text-stroke-color: #e2e2e2;
+}
+
+h1 {
+    font-family:"Tempo Bold";
+}
+
+footer h5{
+    margin-bottom:10px;
+    font-family:"Bodoni MT";
+}

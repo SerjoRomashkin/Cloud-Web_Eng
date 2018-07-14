@@ -386,13 +386,53 @@ footer a:hover{
 
 /* Login page */
 
-.loginRegister{
-	width:100%;
-	margin:0 auto;
-	display:block;
+#loginregister{
+	top: 165px;
+    width: 62%;
+    height: 420px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-image: url(../images/cluster_bg_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.loginwindow {
+    top: -115px;
+    width: 100%;
+    height: 420px;
+    display: block;
+    position: relative;
+    opacity: 0.7;
+    background-color: #163347;
+}
+
+.signin {
+	display:block
 	position:relative;
-	background-color:#163347;
-	opacity:0.5;
+}
+
+.create{
+	display:block
+	position:relative;
+}
+
+.yjoin{
+	display:block
+	position:relative;
+}
+
+.forgotpw {
+	font-family:Arial;
+    font-size:10px;
+    color:#FFFFFF;
+}
+
+.learnmore {
+	font-family:Arial;
+    font-size:10px;
+    color:#FFFFFF;
 }
 
 /* Dev page */

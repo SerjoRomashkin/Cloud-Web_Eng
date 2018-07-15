@@ -21,16 +21,13 @@
 	    if($count == 1) {
 
 	        $_SESSION['login_user'] = $userName;
-	        header("location: events.php");
+	        header("location: dev_page.php");
 	    }else {
-	        $error = "Your Login Name or Password is invalid <br><a href='#recover'>click here to recover password</a>";
+	        $error = "Your Login Name or Password is invalid. Please try again. <br>";
 		}
    }
 	
 ?>
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,10 +42,10 @@
 		<div id="Wrapper">
 			<header>
 			 <section class="headCenter">
-			 	<a href="#" id="logo"><img src="images/logo_invert_R_small.png"></a>
+			 	<a href="index.php" id="logo"><img src="images/logo_invert_R_small.png"></a>
 					<section class="login">
 						<a class="installSteam" href="#"><img src="images/btn_header_installsteam_download.png">Install Steam</a>
-						<a id="loginButton" href="dev_page.html">login</a>
+						<a id="loginButton" href="sign in.php">login</a>
 						<a class="middle">|</a>
 						<a id="langButton" href="#">language              </a>	
 					</section>
@@ -93,6 +90,7 @@
 							<p>Password</p>	
 								<input type="password" name="password">
 								<button type="submit" class="submit" >Sign in</button>
+								<span class="error"><?php echo $error; ?></span>
 							</form>
 						</div>
 						<div class="create">
@@ -114,9 +112,6 @@
 							</ul>
 							<img src="images/why_join_preview.png"
 						</div>
-				 <span class="error"><?php echo $error; ?></span>
-						<br><br>
-                   		<a href="register.php">Register</a>
                    </section>
 					 <a class="forgotpw" href="#">Forgot your password?</a>
 					 <a class="learnmore" href="#">Learn more about Steal.</a>

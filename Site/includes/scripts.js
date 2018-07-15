@@ -1,5 +1,5 @@
 /**
- * @author Serj Romashkin
+ * @authors: Serj & OR
  */
 
 window.onload = function(){

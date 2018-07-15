@@ -1,3 +1,13 @@
+<?php
+	include('session.php');
+	
+	$game_ids= explode(',', $user_games_session);			
+   	foreach ($game_ids as $value) {
+		$sql = "SELECT * FROM tb_games_225_STEAL WHERE game_id = '$value' ";
+		$events_result = mysqli_query($con,$sql);
+		$count = mysqli_num_rows($events_result);
+	  }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,7 +25,7 @@
 			 	<a href="#" id="logo"><img src="images/logo_invert_R_small.png"></a>
 					<section class="login">
 						<a class="installSteam" href="#"><img src="images/btn_header_installsteam_download.png">Install Steam</a>
-						<a id="loginButton" href="login.html">sign in</a>
+						<a id="loginButton" href="sign in.php">sign in</a>
 						<a class="middle">|</a>
 						<a id="langButton" href="#">language              </a>	
 					</section>

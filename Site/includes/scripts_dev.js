@@ -1,5 +1,5 @@
 /**
- * @author Serj Romashkin
+ * @authors: Serj & OR
  */
 
 window.onload = function(){
@@ -41,7 +41,7 @@ function addsection () {
     
     
     var link = document.createElement("a");
-    link.href = "prod_page.html";
+    link.href = "prod_page.php";
     link.appendChild(img);
     
     section.appendChild(link);

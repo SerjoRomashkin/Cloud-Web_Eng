@@ -542,7 +542,7 @@ footer a:hover{
 
 .forgotpw {
 	top: 12px;
-    right: 565px;
+    right: 0;
     font-family: Arial;
     font-size: 14px;
     color: #FFFFFF;
@@ -552,8 +552,8 @@ footer a:hover{
 }
 
 .learnmore {
-	top: -6px;
-    right: 17px;
+	top: 17px;
+    left: 398px;
     font-family: Arial;
     font-size: 14px;
     color: #FFFFFF;
@@ -562,7 +562,24 @@ footer a:hover{
     text-decoration:none;
 }
 
+.error{
+	top: 12px;
+    right: 0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    text-decoration:none;
+}
 
+.error a{
+	text-decoration:none;
+}
+
+.error a:hover{
+	color:#5CABD9;
+}
 
 /* prod page */
 

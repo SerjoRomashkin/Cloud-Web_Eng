@@ -22,10 +22,10 @@
 		<div id="Wrapper">
 			<header>
 			 <section class="headCenter">
-			 	<a href="#" id="logo"><img src="images/logo_invert_R_small.png"></a>
+			 	<a href="index.php" id="logo"><img src="images/logo_invert_R_small.png"></a>
 					<section class="login">
 						<a class="installSteam" href="#"><img src="images/btn_header_installsteam_download.png">Install Steam</a>
-						<a id="loginButton" href="login.html">login</a>
+						<a id="loginButton" href="logout.php">Logout</a>
 						<a class="middle">|</a>
 						<a id="langButton" href="#">language              </a>	
 					</section>
@@ -106,6 +106,6 @@
 				</div>
 			</footer>
 		</div>
-			<script src="includes\scripts_dev.js"></script>
+			<script src="includes\scripts_dev_1.js"></script>
 	</body>
 </html>

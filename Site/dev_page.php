@@ -1,9 +1,19 @@
+<?php
+	include('session.php');
+	
+	$game_ids= explode(',', $user_games_session);			
+   	foreach ($game_ids as $value) { 
+		$sql = "SELECT * FROM tb_games_225_STEAL WHERE game_id = '$value' ";
+		$events_result = mysqli_query($con,$sql);
+		$count = mysqli_num_rows($events_result);
+	  }
+?> 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>STEAL - Home</title>
+        <title>STEAL - Dev Page</title>
         <link rel="stylesheet" href="includes/styles.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.png" />
         </head>
@@ -15,7 +25,7 @@
 			 	<a href="#" id="logo"><img src="images/logo_invert_R_small.png"></a>
 					<section class="login">
 						<a class="installSteam" href="#"><img src="images/btn_header_installsteam_download.png">Install Steam</a>
-						<a id="loginButton" href="login.html">sign in</a>
+						<a id="loginButton" href="login.html">login</a>
 						<a class="middle">|</a>
 						<a id="langButton" href="#">language              </a>	
 					</section>
@@ -30,7 +40,7 @@
 			  </section>
 		    </header>
 		   <main>
-				  <nav class="your_nav">
+		   	<nav class="your_nav">
 				  	<ul>
 						<li><a class="popup_menu_item" href="#">Your Store	</a><img src="images/btn_arrow_down_padded_white.png"></li>
 						<li><a class="popup_menu_item" href="#">Games		</a><img src="images/btn_arrow_down_padded_white.png"></li>
@@ -76,46 +86,26 @@
 						<a href="#">Indie			 			</a></br>
 				</aside>
 				<article>
-					<section class="content">
-						<h4>FEATURED & RECOMMENDED</h4>
-					</section>
-					
-					<section class="content">
-						<h4>SPECIAL OFFERS</h4>
-					</section>
-					
-					<section class="content">
-						<h4>BROWSE STEAL</h4>
-					</section>
-					
-					<section class="content">
-						<h4>SUGGESTED CURATORS</h4>
-					</section>
-					
-					<section class="content">
-						<h4>UPDATES AND OFFERS</h4>
-					</section>
+					<div class="dev_main">
+				<div class="dev_menu">
+						<h1>Welcome Developer<h1>
+						<div class="Prod_sec"></div>
+				</div>
+				</div>
 				</article>
-			</main>
-			<div class="sign_bottom">
-				<h3>Looking for recommendations?</h3>
-				<p>Sign in to view personalized recommendations</p>
-								<a href="login.html"><button>Sign in</button></a>
-				<p>Or <a href="#" class="sign_up">sign up</a> and join Steal for free</p>
-			</div>
+				</main>
 			<footer>
 				<div>
 					<a href="#">About Valve</a>   
-					<a href="#">Stealworks</a>   
+					<a href="#">Steamworks</a>   
 					<a href="#">Jobs</a>   
-					<a href="#">Steal Distribution</a>   
+					<a href="#">Steam Distribution</a>   
 					<a href="#">Gift Cards</a>   
 					<a href="#">Steal</a>   
 					<a href="#">@steal_games</a>
 				</div>
 			</footer>
 		</div>
-		</body>
-		<script src="includes\scripts.js"></script>
+			<script src="includes\scripts_dev.js"></script>
+	</body>
 </html>
-

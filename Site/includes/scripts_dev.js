@@ -30,7 +30,8 @@ function addsection () {
 	section.style.background = color;
 	section.style.border= "1px solid black";
 	section.style.position= "relative";
-	section.style.margin= "1%";
+	section.style.top= "20px";
+	section.style.left= "-100px";
 	
 	var img = document.createElement("img");
 	img.setAttribute("src", "images/Witcher_3_cover_art.jpg");

@@ -42,7 +42,7 @@
 		<div id="Wrapper">
 			<header>
 			 <section class="headCenter">
-			 	<a href="index.php" id="logo"><img src="images/logo_invert_R_small.png"></a>
+			 	<a href="index.html" id="logo"><img src="images/logo_invert_R_small.png"></a>
 					<section class="login">
 						<a class="installSteam" href="#"><img src="images/btn_header_installsteam_download.png">Install Steam</a>
 						<a id="loginButton" href="sign in.php">login</a>

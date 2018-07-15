@@ -110,7 +110,7 @@
 			<div class="sign_bottom">
 				<h3>Looking for recommendations?</h3>
 				<p>Sign in to view personalized recommendations</p>
-								<a href="login.html"><button>Sign in</button></a>
+								<a href="sign in.php"><button>Sign in</button></a>
 				<p>Or <a href="#" class="sign_up">sign up</a> and join Steal for free</p>
 			</div>
 			<footer>
